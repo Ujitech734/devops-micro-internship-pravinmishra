@@ -1,6 +1,6 @@
 # Week 00 - Internet and Networking
 
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+Par                         t of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ---
 
@@ -25,7 +25,7 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![Task 1 Screenshot](screenshots/task-1-chatgpt-screenshot.png)
 
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
@@ -34,7 +34,53 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+My prompt  
+With a detailed simple real-life examples explain What is a protocol in networking? 
+
+Chatgpt reply 
+Hey Jennifer! 👋
+
+A protocol in networking is one of the most important concepts to understand because every communication on a network depends on protocols.
+
+Simple Definition
+
+A network protocol is a set of rules and standards that tells devices how to communicate with each other over a network.
+
+Think of it like this:
+
+A protocol is the language and the rules that computers agree to follow so they can understand each other.
+
+Without protocols, computers would be like two people trying to have a conversation where one speaks only English and the other speaks only Chinese—they wouldn't understand each other.
+
+Real-Life Example 1: Traffic Rules 🚦
+
+Imagine you're driving in Lagos.
+
+There are rules such as:
+
+Stop at a red light.
+Drive on the correct side of the road.
+Give way at intersections.
+Follow speed limits.
+
+Because everyone follows the same rules, traffic flows safely.
+
+If everyone made up their own rules:
+
+Cars would crash.
+Traffic would be chaotic.
+Nobody would reach their destination.
+
+Networking works exactly the same way.
+
+Instead of cars, we have:
+
+Computers
+Phones
+Servers
+Routers
+
+Instead of traffic rules, we have network protocols....
 
 ---
 
@@ -59,7 +105,8 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+When for example Jane in Nigeria or anywhere in the world visits the **EpicReads** website, the browser first uses the website's **IP address**, which is the unique numerical address that identifies the server hosting the site in Finland. The request is then broken into small pieces called **packets** through a process known as **packet switching**. Each packet may travel along different routes across the internet before reaching the server. The **TCP/IP** protocol suite ensures that the packets are correctly addressed, transmitted, reassembled in the right order, and retransmitted if any are lost. Once the connection is established, **HTTP** (Hypertext Transfer Protocol) or the more secure **HTTPS** is used to exchange web pages and data between the user's browser and the server. HTTPS also encrypts the communication, protecting users' personal information and making online browsing more secure.
+...
 
 ---
 
@@ -91,10 +138,11 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![Application Architecture Diagram](screenshots/task-3-diagram-two-tier.png)
+
+![Application Architecture Diagram](screenshots/task-3-diagram-three-tier.png)
 
 
-Replace `task-3-diagram.png` with your actual diagram file name.
 
 ---
 
@@ -102,19 +150,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+Amazon EC2 (hosts the frontend/web application)
+HTML, CSS, JavaScript (used to build the user interface)
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+Amazon EC2 (hosts the backend application)
+Node.js with Express.js
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
-
+Amazon RDS MySQL
+MySQL
 ---
 
 # 🌍 Task 4: Domain Name & DNS (Basic Concepts)
@@ -142,7 +189,9 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+DNS (Domain Name System) is like the internet's phonebook. It changes a website name, such as epicreads.com, into an IP address that computers can understand. This makes it easier for people to visit websites without remembering long numbers.
+
+To connect epicreads.com to 52.172.142.222, an A record should be used because it links a domain name directly to an IPv4 address....
 
 ---
 
@@ -181,7 +230,6 @@ Save your screenshot in the `screenshots` folder and update the file name below.
 ![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
 
 
-Replace `task-5-vscode.png` with your actual screenshot file name.
 
 ---
 
@@ -218,7 +266,7 @@ Add the following credit note at the end of your post:
 Paste your LinkedIn post URL here:
 
 ```text
-Add your URL here...
+https://www.linkedin.com/posts/jennifer-ifesinachi-udeh_the-internet-works-because-billions-of-devices-share-7488912105283235840-Hyk6/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFSVTNcBifpKhCEFba52OC8w7ZabwcMcXHw...
 ```
 
 ---
@@ -227,7 +275,41 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+The internet works because billions of devices agree to follow the same rules.
+
+After being away from LinkedIn for a little over two months, I'm back and it feels good to be sharing again.
+
+This week, I revisited some networking fundamentals as part of the DevOps Micro Internship (DMI). Not because they were new to me, but because every cloud deployment, API request, and web application depends on these concepts.
+
+One scenario involved an online bookstore called EpicReads, and it was a good reminder of what happens behind the scenes every time we open a website.
+
+Here are a few takeaways:
+🌐 Networking
+Data doesn't travel as one large file, it is broken into packets and sent across the internet using packet switching.
+
+Every server has an IP address, which allows devices to locate it.
+
+TCP/IP ensures data is delivered reliably and in the correct order.
+
+HTTP and HTTPS define how browsers and web servers communicate, with HTTPS adding encryption for secure communication.
+
+🏗️ Application Architecture
+ I also revisited the difference between two-tier and three-tier architectures.
+A two-tier application connects the frontend directly to the database.
+
+A three-tier architecture introduces a backend layer between the frontend and the database, making applications more scalable, secure, and easier to maintain.
+
+🌍 DNS
+ A website may run on an IP address, but users don't remember numbers. DNS maps a domain name like epicreads.com to its IP address, allowing users to access the application using a simple, memorable name.
+
+💻 Development Environment
+ Finally, I completed my VS Code setup to prepare for the hands-on labs and projects coming in the next phase of the internship.
+
+One thing I've learned over the past year is that becoming better in cloud and DevOps isn't about chasing new technologies every week. It's about strengthening the fundamentals that everything else is built on.
+
+I'm looking forward to sharing more of what I build and learn in the weeks ahead.
+
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://lnkd.in/e7yyK2CH · Start your DevOps journey: https://lnkd.in/eAGp-JfR...
 
 ---
 
@@ -235,19 +317,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+I was already familiar with most of the topics covered this week, including VS Code setup, networking protocols, and basic application architecture. Revisiting these concepts helped reinforce my existing knowledge and reminded me of how important they are in cloud computing and DevOps....
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+I wouldn't say any of the topics were particularly difficult. However, revisiting DNS gave me a deeper understanding of how domain names are translated into IP addresses and how different DNS records are used in real-world scenarios. It helped me connect the theory with practical applications...
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+Next week, I want to focus more on the practical side by spending more time building and troubleshooting. My goal is to strengthen my hands-on DevOps skills, improve my understanding of cloud services and networking, and stay consistent in documenting my learning journey....
 
 ---
 
