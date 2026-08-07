@@ -16,11 +16,21 @@ In this assignment, you will create and customize a `CLAUDE.md` file for your pr
 
 Capture Claude’s response before `CLAUDE.md` exists in the project to establish a baseline behavior.
 
-### Evidence
+Before CLAUDE.md file was created. the project only contained the HTML, CSS, and supporting files, Claude provided a generic explanation of the project and a general deployment recommendation without any project-specific context.
+
+What I learned: I learned that without project-specific instructions, Claude relies only on the files it can see and provides generic responses based on the available project structure.
 
 #### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
 
-Add your screenshot here.
+![week 2](screenshots/assignment-2-task-1.png).
+
+![week 2](screenshots/assignment-2-task-1-launch-claude.png).
+
+![week 2](screenshots/assignment-2-task-1-response.png).
+
+![week 2](screenshots/assignment-2-task-1-response-2.png).
+
+![week 2](screenshots/assignment-2-task-1-response-3.png).
 
 ---
 
@@ -30,11 +40,19 @@ Add your screenshot here.
 
 Generate an initial `CLAUDE.md` file using the `/init` command and review the auto-generated content.
 
-### Evidence
+The CLAUDE.md file was generated after running the /init command. Claude scanned the project and created the initial project instructions, which I later customized.
+
+What I learned: I learned that the /init command automatically generates a CLAUDE.md file by analyzing the project, providing a solid starting point that can be tailored to the project's requirements.
 
 #### Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 
-Add your screenshot here.
+![week 2](screenshots/assignmen-2-task-2-claude-init.png).
+
+![week 2](screenshots/assignment-2-task-2-claude-response.png).
+
+![week 2](screenshots/assignment-2-task-2-claude-response2.png).
+
+![week 2](screenshots/assignment-2-task-2-claude-response3.png).
 
 ---
 
@@ -44,11 +62,13 @@ Add your screenshot here.
 
 Update the generated `CLAUDE.md` file by adding project-specific instructions across all required sections.
 
-### Evidence
+The CLAUDE.md file was updated and customised which includes the Project Overview, Architecture, Commands, Conventions, and Safety sections with project-specific instructions.
+
+What I learned: I learned that customizing CLAUDE.md allows me to define how Claude should understand the project, recommend deployment strategies, follow development conventions, and respect project-specific constraints.
 
 #### Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
-Add your screenshot here.
+![week 2](screenshots/assignment-2-task-3-updated-claude.md-file.png).
 
 ---
 
@@ -58,18 +78,25 @@ Add your screenshot here.
 
 Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a new session and comparing responses before and after context is applied.
 
-### Evidence
+After updating the Claude.md file, Claude read the customized CLAUDE.md and changed its behaviour accordingly. Instead of giving a generic response, it identified the project as a static HTML/CSS portfolio website and recommended deployment using Amazon S3, CloudFront, Terraform, and GitHub Actions, as defined in the project instructions.
+
+What I learned: I learned that CLAUDE.md acts as persistent project context, enabling Claude to provide responses that are more accurate, relevant, and aligned with the project's architecture and deployment workflow.
 
 #### Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
 
-Add your screenshot here.
+![week 2](screenshots/assignment-2-task-4-claude-response.png).
+
+![week 2](screenshots/assignment-2-task-4-claude-response2.png).
 
 ---
 
 #### Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
 
-Add your screenshot here.
+![week 2](screenshots/assignment-2-task-5-test-response.png)
 
+This screenshot shows Claude following the project conventions defined in CLAUDE.md. When asked to add a React component to the homepage, Claude refused or warned against the request because the project explicitly specifies No JavaScript and No framework.
+
+What I learned: I learned that Claude not only understands project documentation but also enforces the rules and constraints defined in CLAUDE.md, helping maintain consistency and prevent changes that violate project standards.
 ---
 
 # Task 5 — Commit and push your changes to your fork in GitHub
@@ -78,11 +105,13 @@ Add your screenshot here.
 
 Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instructions are version-controlled.
 
-### Evidence
+The customized CLAUDE.md file was successfully committed, pushed to the GitHub repository, and is visible in the project root, verifying that the project instructions are version-controlled.
+
+What I learned: I learned the importance of version-controlling project documentation so that project instructions evolve alongside the codebase and remain accessible to all collaborators and AI assistants.
 
 #### Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
 
-Add your screenshot here.
+![week 2](screenshots/assignment-2-task-6-pushed-claude.md-file.png).
 
 ---
 
@@ -98,7 +127,7 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`Add your URL here`
+`https://github.com/Ujitech734/Ultimate-Agentic-DevOps-with-Claude-Code.git`
 
 ---
 
