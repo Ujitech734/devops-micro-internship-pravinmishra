@@ -16,11 +16,14 @@ In this assignment, you will build a local Claude Skills system by creating the 
 
 Create the required `.claude/skills/` directory structure for all skills.
 
-### Evidence
+I created the required .claude/skills/ directory structure inside the project and added the four skill subfolders required.
+
+What I learnt:
+This task taught me how to organize a local Claude Skills system within a project. each skill have its own directory and configuration, making skills easier to manage and reuse.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/skills/` folder with all 4 subfolders visible
 
-Add your screenshot here.
+![week 3](screenshots/assignment-3-task-1-Skills-folder.png).
 
 ---
 
@@ -30,17 +33,33 @@ Add your screenshot here.
 
 Place all required skill files into their correct directories and verify their configuration.
 
-### Evidence
+What I Did
+
+I added the required skill files to their respective directories, including SKILL.md files and the template-spec.md file for the scaffold-terraform skill. I also reviewed the frontmatter configuration of the skills.
+
+For the tf-plan skill, I verified that the configuration included:
+
+allowed-tools: Bash, Read, Grep
+disable-model-invocation: true
+
+and that the Write tool was not included.
+
+What I learnt:
+I learnt how skill files and frontmatter control how Claude operates within a project. I also learnt how allowed-tools can restrict the tools available to a skill and how disable-model-invocation can prevent automatic model invocation.
+
+This showed me how tool restrictions enable controlled automation rather than giving an agent unrestricted access to project files.
 
 #### Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
 
-Add your screenshot here.
+![week 3](screenshots/assignment-3-task-1-Skills-folder-creation.png).
+
+![week 3](screenshots/assignment-3-task-2-scaffold-terraform.png).
 
 ---
 
 #### Screenshot 3 — Screenshot 3 — `tf-plan/SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no Write) and `disable-model-invocation: true`
 
-Add your screenshot here.
+![week 3](screenshots/asignment-3-task-2-Skills-tf-plan.png).
 
 ---
 
@@ -50,17 +69,29 @@ Add your screenshot here.
 
 Execute the `/scaffold-terraform` skill to generate a full Terraform infrastructure setup.
 
-### Evidence
+What I did
+I ran the /scaffold-terraform agentic command to generate the Terraform infrastructure setup. Claude followed the instructions defined by the skill and created the required Terraform files, which I then verified in the VS Code sidebar.
+
+What I learnt
+I learnt how a predefined Claude Skill can be used to perform a structured infrastructure task through an agentic command.
+
+I also learnt that skills can provide Claude with specific instructions and constraints, allowing it to generate infrastructure code in a consistent and controlled way instead of relying on an open-ended prompt.
 
 #### Screenshot 4 — Claude's response showing the scaffold complete with the file list
 
-Add your screenshot here.
+![week 3](screenshots/assignment-3-task-3-ran-scaffold-terraform.png).
+
+![week 3](screenshots/assignment-3-task-3-scaffold-terraform-running.png).
+
+![week 3](screenshots/assignment-3-task-3-scaffold-terraform-results.png).
+
+![week 3](screenshots/assignment-3-task-3-scaffold-terraform-results2.png).
 
 ---
 
 #### Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
 
-Add your screenshot here.
+![week 3](screenshots/assignment-3-task-3-terraform-files-created.png).
 
 ---
 
@@ -70,12 +101,38 @@ Add your screenshot here.
 
 Initialize Terraform and execute the `/tf-plan` skill to observe plan execution and output analysis.
 
-### Evidence
+What I did
+I ran terraform init to initialize the Terraform working directory and download the required provider dependencies. I then executed the /tf-plan skill to run the Terraform plan and analyze the resulting output.
+
+What I learnt
+I learnt how terraform init prepares a Terraform working directory for infrastructure operations and how /tf-plan can be used to automate the plan-and-analysis workflow.
+
+I also learnt the importance of reading and interpreting command output, including authentication or configuration errors, rather than treating an error as simply a failed command.
 
 #### Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
 
-Add your screenshot here.
+![week 3](screenshots/assignment-3-task-4-tf-plan.png).
 
+![week 3](screenshots/assignment-3-task-4-tf-plan-results.png).
+
+![week 3](screenshots/assignment-3-task-4-tf-plan-results2.png).
+
+
+After completing the tasks, I committed the project changes and pushed the final version to my GitHub repository.
+
+During the process, I encountered a GitHub push rejection because the Terraform .terraform directory contained a 685 MB AWS provider binary, which exceeded GitHub's 100 MB file limit.
+
+I resolved the issue by adding .terraform/ to .gitignore, removing the generated provider files from Git tracking, and rebuilding the affected commit history before pushing again.
+
+The final project was successfully pushed to my GitHub repository.
+
+What I learnt:
+This troubleshooting process reinforced the importance of understanding the difference between generated Terraform files and project configuration files. It also strengthened my understanding of Git tracking, .gitignore, commit history, and GitHub's file-size limitations.
+
+![week 3](screenshots/assignment-3-task-5-git-add.png).
+
+
+![week 3](screenshots/assignment-3-task-5-git-pushed.png).
 ---
 
 # Submission Instructions
@@ -90,13 +147,13 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`Add your URL here`
+`https://github.com/Ujitech734/Ultimate-Agentic-DevOps-with-Claude-Code.git`
 
 ## LinkedIn post URL
 
 Paste your forked repository URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/jennifer-ifesinachi-udeh_ive-pushed-code-to-github-many-times-this-ugcPost-7492501952648458240-15-2/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFSVTNcBifpKhCEFba52OC8w7ZabwcMcXHw`
 ---
 
 # Completion Checklist
