@@ -23,7 +23,7 @@ This task taught me how to organize a local Claude Skills system within a projec
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/skills/` folder with all 4 subfolders visible
 
-![week 3](screenshots/assignment-3-task-1-Skills-folder.png).
+![week 2](screenshots/assignment-3-task-1-Skills-folder.png).
 
 ---
 
@@ -51,15 +51,15 @@ This showed me how tool restrictions enable controlled automation rather than gi
 
 #### Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
 
-![week 3](screenshots/assignment-3-task-1-Skills-folder-creation.png).
+![week 2](screenshots/assignment-3-task-1-Skills-folder-creation.png).
 
-![week 3](screenshots/assignment-3-task-2-scaffold-terraform.png).
+![week 2](screenshots/assignment-3-task-2-scaffold-terraform.png).
 
 ---
 
 #### Screenshot 3 — Screenshot 3 — `tf-plan/SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no Write) and `disable-model-invocation: true`
 
-![week 3](screenshots/asignment-3-task-2-Skills-tf-plan.png).
+![week 2](screenshots/asignment-3-task-2-Skills-tf-plan.png).
 
 ---
 
@@ -79,19 +79,19 @@ I also learnt that skills can provide Claude with specific instructions and cons
 
 #### Screenshot 4 — Claude's response showing the scaffold complete with the file list
 
-![week 3](screenshots/assignment-3-task-3-ran-scaffold-terraform.png).
+![week 2](screenshots/assignment-3-task-3-ran-scaffold-terraform.png).
 
-![week 3](screenshots/assignment-3-task-3-scaffold-terraform-running.png).
+![week 2](screenshots/assignment-3-task-3-scaffold-terraform-running.png).
 
-![week 3](screenshots/assignment-3-task-3-scaffold-terraform-results.png).
+![week 2](screenshots/assignment-3-task-3-scaffold-terraform-results.png).
 
-![week 3](screenshots/assignment-3-task-3-scaffold-terraform-results2.png).
+![week 2](screenshots/assignment-3-task-3-scaffold-terraform-results2.png).
 
 ---
 
 #### Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
 
-![week 3](screenshots/assignment-3-task-3-terraform-files-created.png).
+![week 2](screenshots/assignment-3-task-3-terraform-files-created.png).
 
 ---
 
@@ -111,11 +111,11 @@ I also learnt the importance of reading and interpreting command output, includi
 
 #### Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
 
-![week 3](screenshots/assignment-3-task-4-tf-plan.png).
+![week 2](screenshots/assignment-3-task-4-tf-plan.png).
 
-![week 3](screenshots/assignment-3-task-4-tf-plan-results.png).
+![week 2](screenshots/assignment-3-task-4-tf-plan-results.png).
 
-![week 3](screenshots/assignment-3-task-4-tf-plan-results2.png).
+![week 2](screenshots/assignment-3-task-4-tf-plan-results2.png).
 
 
 After completing the tasks, I committed the project changes and pushed the final version to my GitHub repository.
@@ -129,10 +129,10 @@ The final project was successfully pushed to my GitHub repository.
 What I learnt:
 This troubleshooting process reinforced the importance of understanding the difference between generated Terraform files and project configuration files. It also strengthened my understanding of Git tracking, .gitignore, commit history, and GitHub's file-size limitations.
 
-![week 3](screenshots/assignment-3-task-5-git-add.png).
+![week 2](screenshots/assignment-3-task-5-git-add.png).
 
 
-![week 3](screenshots/assignment-3-task-5-git-pushed.png).
+![week 2](screenshots/assignment-3-task-5-git-pushed.png).
 ---
 
 # Submission Instructions
