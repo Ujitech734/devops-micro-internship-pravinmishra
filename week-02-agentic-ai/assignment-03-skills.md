@@ -145,13 +145,13 @@ This troubleshooting process reinforced the importance of understanding the diff
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
+
 
 `https://github.com/Ujitech734/Ultimate-Agentic-DevOps-with-Claude-Code.git`
 
 ## LinkedIn post URL
 
-Paste your forked repository URL here:
+
 
 `https://www.linkedin.com/posts/jennifer-ifesinachi-udeh_ive-pushed-code-to-github-many-times-this-ugcPost-7492501952648458240-15-2/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFSVTNcBifpKhCEFba52OC8w7ZabwcMcXHw`
 ---

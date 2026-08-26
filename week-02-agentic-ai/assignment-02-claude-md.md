@@ -125,7 +125,6 @@ What I learned: I learned the importance of version-controlling project document
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
 
 `https://github.com/Ujitech734/Ultimate-Agentic-DevOps-with-Claude-Code.git`
 
