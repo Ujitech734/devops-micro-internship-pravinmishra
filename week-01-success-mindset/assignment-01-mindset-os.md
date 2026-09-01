@@ -146,9 +146,9 @@ Giving back became a core part of her work. Jennifer supported upcoming cloud en
 
 ### Public Link
 
-Paste your link here: (https://www.linkedin.com/posts/jennifer-ifesinachi-udeh_meet-the-20-version-of-me-jennifer-ifesinachi-share-7417438370676752385-xqA9/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFSVTNcBifpKhCEFba52OC8w7ZabwcMcXHw)
+(https://www.linkedin.com/posts/jennifer-ifesinachi-udeh_meet-the-20-version-of-me-jennifer-ifesinachi-share-7417438370676752385-xqA9/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFSVTNcBifpKhCEFba52OC8w7ZabwcMcXHw)
 
-`Add your URL here` (https://www.linkedin.com/in/jennifer-ifesinachi-udeh/)
+(https://www.linkedin.com/in/jennifer-ifesinachi-udeh/)
 
 ---
 
@@ -364,7 +364,7 @@ Every morning when I wake up, I will start my day with thanksgiving to God and t
 
 ### LinkedIn Post
 
-Paste your LinkedIn post link here: (https://www.linkedin.com/posts/jennifer-ifesinachi-udeh_biggest-insight-i-got-about-myself-this-week-share-7417586630322110464-KWED/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFSVTNcBifpKhCEFba52OC8w7ZabwcMcXHw)
+(https://www.linkedin.com/posts/jennifer-ifesinachi-udeh_biggest-insight-i-got-about-myself-this-week-share-7417586630322110464-KWED/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFSVTNcBifpKhCEFba52OC8w7ZabwcMcXHw)
 
 (https://www.linkedin.com/in/jennifer-ifesinachi-udeh/)
 
@@ -374,7 +374,7 @@ Paste your LinkedIn post link here: (https://www.linkedin.com/posts/jennifer-ife
 
  **https://www.linkedin.com/posts/jennifer-ifesinachi-udeh_biggest-insight-i-got-about-myself-this-week-share-7417586630322110464-KWED/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFSVTNcBifpKhCEFba52OC8w7ZabwcMcXHw**  
 
-**https://medium.com/@jenniferifesinachiudeh/week-1-of-my-devops-micro-internship-building-better-systems-not-just-technical-skills-b5c819223542?sharedUserId=jenniferifesinachiudeh**  
+https://medium.com/@jenniferifesinachiudeh/week-1-of-my-devops-micro-internship-building-better-systems-not-just-technical-skills-b5c819223542?source=friends_link&sk=b34f8b71227af029ddadd75823ceb726
 
 ---
 

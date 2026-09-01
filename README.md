@@ -131,7 +131,8 @@ This is not a course. It is an internship-style program — real deployments, re
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ✅ Completed< | ✅ Solved| — | — |
-| 01 | Success Mindset | ✅ Completed| ✅ Solved| https://www.linkedin.com/posts/jennifer-ifesinachi-udeh_biggest-insight-i-got-about-myself-this-week-share-7417586630322110464-KWED/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFSVTNcBifpKhCEFba52OC8w7ZabwcMcXHw| https://medium.com/@jenniferifesinachiudeh/week-1-of-my-devops-micro-internship-building-better-systems-not-just-technical-skills-b5c819223542?sharedUserId=jenniferifesinachiudeh
+| 01 | Success Mindset | ✅ Completed| ✅ Solved| https://www.linkedin.com/posts/jennifer-ifesinachi-udeh_biggest-insight-i-got-about-myself-this-week-share-7417586630322110464-KWED/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFSVTNcBifpKhCEFba52OC8w7ZabwcMcXHw - | 
+https://medium.com/@jenniferifesinachiudeh/week-1-of-my-devops-micro-internship-building-better-systems-not-just-technical-skills-b5c819223542?source=friends_link&sk=b34f8b71227af029ddadd75823ceb726
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
