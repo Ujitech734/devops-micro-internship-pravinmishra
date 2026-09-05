@@ -73,8 +73,8 @@ This is not a course. It is an internship-style program — real deployments, re
  Week 01 → Success Mindset 
 [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/)
 
-<!-- Week 02 → Agentic AI with Claude Code -->
-<!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
+Week 02 → Agentic AI with Claude Code
+[![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/)
 
 <!-- Week 03 → Linux & Bash for DevOps -->
 <!-- [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) -->
@@ -133,7 +133,10 @@ This is not a course. It is an internship-style program — real deployments, re
 | 00 | Internet & Networking Basics | ✅ Completed< | ✅ Solved| — | — |
 | 01 | Success Mindset | ✅ Completed| ✅ Solved| https://www.linkedin.com/posts/jennifer-ifesinachi-udeh_biggest-insight-i-got-about-myself-this-week-share-7417586630322110464-KWED/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFSVTNcBifpKhCEFba52OC8w7ZabwcMcXHw - | 
 https://medium.com/@jenniferifesinachiudeh/week-1-of-my-devops-micro-internship-building-better-systems-not-just-technical-skills-b5c819223542?source=friends_link&sk=b34f8b71227af029ddadd75823ceb726
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
+
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved| https://www.linkedin.com/posts/jennifer-ifesinachi-udeh_dmibypravinmishra-agenticai-claudecode-activity-7439259531924246528-zqq_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFSVTNcBifpKhCEFba52OC8w7ZabwcMcXHw|
+https://medium.com/@jenniferifesinachiudeh/beyond-prompting-what-week-2-taught-me-about-building-ai-agents-that-can-actually-work-8904e7e60020?source=friends_link&sk=f61a74931c66f86bf03b1f5367ec6104 |
+
 | 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
